@@ -20,7 +20,7 @@ lastnumber = -lastnumber;
 }
 if (lastnumber > 5)
 {
-printf("Last digit of %d is %d and is greater tha 5\n", n, lastnumber);
+printf("Last digit of %d is %d and is greater than 5\n", n, lastnumber);
 }
 else if (lastnumber == 0)
 {
