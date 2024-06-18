@@ -15,6 +15,6 @@ while (abc < 123)
 putchar (abc);
 abc++;
 }
-putchar (8);
+putchar ('\n');
 return (0);
 }
