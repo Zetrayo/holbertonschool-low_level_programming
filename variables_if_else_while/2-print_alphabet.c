@@ -8,10 +8,11 @@
 */
 int main(void)
 {
-  int abc;
-  for (abc = 97; abc < 122; abc++)
-  {
-    putchar(abc);
-  }
-  putchar(8);
+int abc;
+for (abc = 97; abc < 122; abc++)
+{
+putchar (abc);
+}
+putchar (8);
+return (0);
 }
