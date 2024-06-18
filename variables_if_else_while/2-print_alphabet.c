@@ -9,9 +9,11 @@
 int main(void)
 {
 int abc;
-for (abc = 97; abc < 123; abc++)
+abc = 97;
+while (abc < 123)
 {
 putchar (abc);
+abc++;
 }
 putchar (8);
 return (0);
