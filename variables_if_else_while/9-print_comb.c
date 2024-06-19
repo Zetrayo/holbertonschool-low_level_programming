@@ -16,8 +16,8 @@ putchar (abc);
 if (abc != 57)
 {
 putchar (44);
-}
 putchar (32);
+}
 abc++;
 }
 putchar ('\n');
