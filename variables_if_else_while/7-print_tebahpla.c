@@ -9,8 +9,8 @@
 int main(void)
 {
 int abc;
-abc = 123;
-while (abc > 97)
+abc = 122;
+while (abc > 98)
 {
 putchar (abc);
 abc--;
