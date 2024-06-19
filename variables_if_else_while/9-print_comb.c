@@ -13,7 +13,10 @@ abc = 48;
 while (abc < 58)
 {
 putchar (abc);
+if (abc != 57)
+{
 putchar (44);
+}
 putchar (32);
 abc++;
 }
