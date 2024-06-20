@@ -17,12 +17,12 @@ return (0);
 
 int print_alphabet_x10(void)
 {
-int abcd, i;
+int abcd, noti;
 char eol;
 abcd = 97;
 eol = '\n';
-i = 0;
-while (i > 10)
+noti = 0;
+while (noti < 10)
 {
 while (abcd < 123)
 {
@@ -30,7 +30,7 @@ write(1, &abcd, 1);
 abcd++;
 }
 write(1, &eol, 1);
-i++;
+noti++;
 }
 return (0);
 }
