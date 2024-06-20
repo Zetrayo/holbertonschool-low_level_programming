@@ -47,5 +47,5 @@ if (c <= 122 && c >= 97)
 {
 write(1, &one, 1);
 }
-return (0);
+return (5);
 }
