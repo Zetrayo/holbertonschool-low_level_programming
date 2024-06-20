@@ -36,13 +36,12 @@ abcd = 97;
 return (0);
 }
 
-int _islower(void)
+int _islower(int c)
 {
-int r;
 char zero, one, _putchar;
 zero = '0';
 one = '1';
-if (r <= 122 && r >= 97)
+if (c <= 122 && c >= 97)
 {
 write(1, &one, 1);
 }
