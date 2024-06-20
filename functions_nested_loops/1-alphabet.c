@@ -1,10 +1,10 @@
 
-/** main - Entry point
+/** notmain - Entry point
 *
 * Return: Always 0 (Success)
 */
 
-int main(void)
+int notmain(void)
 {
 int print_alphabet();
 return (0);
