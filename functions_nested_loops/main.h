@@ -27,7 +27,7 @@ while (i < 10)
 while (abcd < 123)
 {
 write(1, &abcd, 1);
-abc++;
+abcd++;
 }
 write(1, &eol, 1);
 i++;
