@@ -39,7 +39,7 @@ return (0);
 int _islower(void)
 {
 int r;
-char zero, one;
+char zero, one, _putchar;
 zero = '0';
 one = '1';
 if (r <= 122 && r >= 97)
