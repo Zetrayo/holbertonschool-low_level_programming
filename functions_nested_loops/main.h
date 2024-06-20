@@ -22,7 +22,7 @@ char eol;
 abcd = 97;
 eol = '\n';
 i = 0;
-while (i < 10)
+while (i > 10)
 {
 while (abcd < 123)
 {
