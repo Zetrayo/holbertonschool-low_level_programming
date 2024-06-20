@@ -1,2 +1,0 @@
-#!/bin/bash
-export CFILE=buffer.c ; gcc $CFILE -o 4-puts.c
