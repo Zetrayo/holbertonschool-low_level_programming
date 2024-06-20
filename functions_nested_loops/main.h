@@ -17,16 +17,16 @@ return (0);
 
 int print_alphabet_x10(void)
 {
-int abc, i;
+int abcd, i;
 char eol;
-abc = 97;
+abcd = 97;
 eol = '\n';
 i = 0;
 while (i < 10)
 {
-while (abc < 123)
+while (abcd < 123)
 {
-write(1, &abc, 1);
+write(1, &abcd, 1);
 abc++;
 }
 write(1, &eol, 1);
