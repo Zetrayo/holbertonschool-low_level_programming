@@ -27,5 +27,4 @@ write(1, &abcd, 1);
 abcd++;
 }
 write(1, &eol, 1);
-return (0);
 }
