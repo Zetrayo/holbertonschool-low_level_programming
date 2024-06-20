@@ -1,11 +1,9 @@
 #include <unistd.h>
-/**
-* main - Entry point
-* print_alphabet - mid point
+
+/** main - Entry point
 *
 * Return: Always 0 (Success)
 */
-
 int print_alphabet(void)
 {
 int abc;
