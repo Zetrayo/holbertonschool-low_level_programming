@@ -36,7 +36,7 @@ abcd = 97;
 return (0);
 }
 
-int _islower(void)
+int _islower(r)
 {
 int r;
 char zero, one;
