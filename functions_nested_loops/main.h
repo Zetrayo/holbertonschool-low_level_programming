@@ -1,10 +1,5 @@
 #include <unistd.h>
 
-int _putchar()
-{
-return (0);
-}
-
 int print_alphabet(void)
 {
 int abc;
