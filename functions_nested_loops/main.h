@@ -31,6 +31,7 @@ abcd++;
 }
 write(1, &eol, 1);
 i++;
+abcd = 97;
 }
 return (0);
 }
