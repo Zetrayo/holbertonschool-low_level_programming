@@ -35,3 +35,20 @@ abcd = 97;
 }
 return (0);
 }
+
+int islower(void)
+{
+int c;
+char zero, one;
+zero = '0';
+one = '1';
+if (c <= 122 && c >= 97)
+{
+write(1, &one, 1);
+}
+else
+{
+write(1, &zero, 1);
+}
+return (0);
+}
