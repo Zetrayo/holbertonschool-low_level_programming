@@ -1,10 +1,10 @@
 #include <unistd.h>
 /**
-* main - Entry point
+* print_alphabet - Entry point
 *
 * Return: Always 0 (Success)
 */
-int main(void)
+int print_alphabet(void)
 {
 int abc;
 char eol;
