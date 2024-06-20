@@ -41,8 +41,7 @@ return (0);
 
 int _islower(int c)
 {
-char zero, one;
-zero = '0';
+char one;
 one = '1';
 if (c <= 122 && c >= 97)
 {
