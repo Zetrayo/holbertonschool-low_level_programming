@@ -48,7 +48,7 @@ if (c <= 122 && c >= 97)
 {
 write(1, &one, 1);
 }
-else
+elif (c > 122 && c < 97)
 {
 write(1, &zero, 1);
 }
