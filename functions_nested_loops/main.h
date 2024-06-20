@@ -45,7 +45,7 @@ char one;
 one = '1';
 if (c <= 122 && c >= 97)
 {
-write(1, &one, 1);
+return (1);
 }
-return (5);
+return (0);
 }
