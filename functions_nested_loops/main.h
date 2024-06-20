@@ -17,20 +17,15 @@ return (0);
 
 int print_alphabet_x10(void)
 {
-int abcd, noti;
+int abcd;
 char eol;
 abcd = 97;
 eol = '\n';
-noti = 0;
-while (noti < 10)
-{
 while (abcd < 123)
 {
 write(1, &abcd, 1);
 abcd++;
 }
 write(1, &eol, 1);
-noti++;
-}
 return (0);
 }
