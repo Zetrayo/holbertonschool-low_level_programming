@@ -6,6 +6,6 @@
 
 int notmain3(void)
 {
-int islower(void);
+int _islower(void);
 return (0);
 }
