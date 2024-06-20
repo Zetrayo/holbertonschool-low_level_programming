@@ -6,6 +6,6 @@
 
 int notmain2(void)
 {
-int print_alphabet10(void);
+int print_alphabet_x10(void);
 return (0);
 }

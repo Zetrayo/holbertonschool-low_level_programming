@@ -15,7 +15,7 @@ write(1, &eol, 1);
 return (0);
 }
 
-int print_alphabet10(void)
+int print_alphabet_x10(void)
 {
 int abc, i;
 char eol;
