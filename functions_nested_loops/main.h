@@ -1,10 +1,12 @@
 #include <unistd.h>
 
+/*
 int _putchar(int r)
 {
 write(1, &r, 1);
 return (0);
 }
+*/
 
 int print_alphabet(void)
 {
