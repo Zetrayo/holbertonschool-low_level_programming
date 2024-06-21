@@ -1,7 +1,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <time.h>
-#include "holberton.h"
 #include <stdio.h>
 
 void times_table(void);
