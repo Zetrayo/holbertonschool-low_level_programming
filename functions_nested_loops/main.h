@@ -215,5 +215,4 @@ while (here > 98)
 _putchar(here + '0');
 }
 }
-return (0);
 }
