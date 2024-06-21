@@ -9,7 +9,7 @@ void _putchar(int r);
 int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
-int add(void);
+int add(int a, int b);
 
 int print_alphabet(void)
 {
