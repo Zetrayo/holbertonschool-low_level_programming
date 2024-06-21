@@ -237,67 +237,16 @@ printf("%d, ", n);
 
 void times_table(void)
 {
-int n;
-n = 0;
-while (n < 9)
+int a, b;
+for (a = 0; i <= 9; a++)
 {
-printf("%d, ", n * 0);
-n++;
+  for (b = 0; i <= count; b++)
+  {
+    _putchar(a + '0');
+    _putchar(b + '0');
+  }
+  
 }
-n = 0;
-while (n < 9)
-{
-printf("%d, ", n * 1);
-n++;
-}
-n = 0;
-while (n < 9)
-{
-printf("%d, ", n * 2);
-n++;
-}
-n = 0;
-while (n < 9)
-{
-printf("%d, ", n * 3);
-n++;
-}
-n = 0;
-while (n < 9)
-{
-printf("%d, ", n * 4);
-n++;
-}
-n = 0;
-while (n < 9)
-{
-printf("%d, ", n * 5);
-n++;
-}
-n = 0;
-while (n < 9)
-{
-printf("%d, ", n * 6);
-n++;
-}
-n = 0;
-while (n < 9)
-{
-printf("%d, ", n * 7);
-n++;
-}
-n = 0;
-while (n < 9)
-{
-printf("%d, ", n * 8);
-n++;
-}
-n = 0;
-while (n < 9)
-{
-printf("%d, ", n * 9);
-n++;
-}
-return;
 
+return;
 }
