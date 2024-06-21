@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 void _putchar(int r);
-
+int print_sign(int n);
 
 int print_alphabet(void)
 {
@@ -56,6 +56,31 @@ return (1);
 }
 else if (c <= 90 && c >= 65)
 {
+return (1);
+}
+return (0);
+}
+
+
+int print_sign(int n)
+{
+char minus, plus, zero;
+zero = '0';
+minus = '-';
+plus = '+';
+if (n < 0)
+{
+write(1, &minus, 1);
+return (-1);
+}
+else if (n == 0)
+{
+write(1, &zero, 1);
+return (0);
+}
+else if (n > 0)
+{
+write(1, &plus, 1);
 return (1);
 }
 return (0);
