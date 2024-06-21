@@ -205,7 +205,7 @@ if (here < 98)
 {
 while (here < 98)
 {
-_putchar(here + '0');
+_putchar('0');
 here ++;
 }
 }
@@ -213,7 +213,7 @@ else if (here > 98)
 {
 while (here > 98)
 {
-_putchar(here + '0');
+_putchar('1');
 here --;
 }
 }
