@@ -199,20 +199,20 @@ return (0);
 }
 
 
-void times_table(int here)
+void print_to_98(int here)
 {
 if (here < 98)
 {
 while (here < 98)
 {
-_putchar(here + '0'),
+_putchar(here + '0');
 }
 }
 else if (here > 98)
 {
 while (here > 98)
 {
-_putchar(here + '0'),
+_putchar(here + '0');
 }
 }
 return (0);
