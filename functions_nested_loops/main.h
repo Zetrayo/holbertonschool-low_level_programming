@@ -164,21 +164,6 @@ return (0);
 
 int jack_bauer(void)
 {
-int min, hour;
-min = 0;
-hour = 0;
-char ze, on, tw, th, fo, fi, si, se, ei, ni, dots, nl;
-ze = '0';
-on = '1';
-tw = '2';
-th = '3';
-fo = '4';
-fi = '5';
-si = '6';
-se = '7';
-ei = '8';
-ni = '9';
-dots = ':';
-nl = '\n';
-printf("this %c",se);
+printf("this");
+return (0);
 }
