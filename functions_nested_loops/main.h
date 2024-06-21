@@ -198,14 +198,6 @@ return (yes);
 return (0);
 }
 
-
-
-/**
-  * print_to_98 - Prints all natural numbers from n to 98
-  * @n: The number to start printing from
-  *
-  * Return: Always 0.
-  */
 void print_to_98(int n)
 {
 if (n <= 98)
@@ -240,4 +232,72 @@ printf("%d, ", n);
 }
 }
 }
+}
+
+
+void times_table(void)
+{
+int n;
+n = 0;
+while (n < 9)
+{
+printf("%d, ", n * 0)
+n++;
+}
+n = 0;
+while (n < 9)
+{
+printf("%d, ", n * 1)
+n++;
+}
+n = 0;
+while (n < 9)
+{
+printf("%d, ", n * 2)
+n++;
+}
+n = 0;
+while (n < 9)
+{
+printf("%d, ", n * 3)
+n++;
+}
+n = 0;
+while (n < 9)
+{
+printf("%d, ", n * 4)
+n++;
+}
+n = 0;
+while (n < 9)
+{
+printf("%d, ", n * 5)
+n++;
+}
+n = 0;
+while (n < 9)
+{
+printf("%d, ", n * 6)
+n++;
+}
+n = 0;
+while (n < 9)
+{
+printf("%d, ", n * 7)
+n++;
+}
+n = 0;
+while (n < 9)
+{
+printf("%d, ", n * 8)
+n++;
+}
+n = 0;
+while (n < 9)
+{
+printf("%d, ", n * 9)
+n++;
+}
+return;
+
 }
