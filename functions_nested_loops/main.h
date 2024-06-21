@@ -1,6 +1,9 @@
 #include <unistd.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
-
+int jack_bauer(void);
 void _putchar(int r);
 int print_sign(int n);
 int _abs(int);
@@ -154,8 +157,28 @@ else if (digi == 9)
 copy = '9';
 }
 
-
 write(1, &copy, 1);
 return (digi);
 return (0);
+}
+
+int jack_bauer(void)
+{
+int min, hour;
+min = 0;
+hour = 0;
+char ze, on, tw, th, fo, fi, si, se, ei, ni, dots, nl;
+ze = '0';
+on = '1';
+tw = '2';
+th = '3';
+fo = '4';
+fi = '5';
+si = '6';
+se = '7';
+ei = '8';
+ni = '9';
+dots = ':';
+nl = '\n';
+printf("this %c",se);
 }
