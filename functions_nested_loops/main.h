@@ -107,12 +107,14 @@ return (0);
 int print_last_digit(int n)
 {
 int digi;
+char copy;
 if (n < 0)
 {
 n = n * -1;
 }
 digi = n % 10;
-write(1, &digi, 1);
+copy = 'digi';
+write(1, &copy, 1);
 return (digi);
 return (0);
 }
