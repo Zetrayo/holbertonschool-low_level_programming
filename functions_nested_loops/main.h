@@ -112,6 +112,7 @@ if (n < 0)
 n = n * -1;
 }
 digi = n % 10;
+write(1, &digi, 1);
 return (digi);
 return (0);
 }
