@@ -217,5 +217,5 @@ _putchar(here + '0');
 here --;
 }
 }
-return (0);
+return (here);
 }
