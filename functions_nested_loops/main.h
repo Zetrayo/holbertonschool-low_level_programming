@@ -112,8 +112,9 @@ if (n < 0)
 {
 n = n * -1;
 }
+
 digi = n % 10;
-copy = 'digi';
+copy = digi;
 write(1, &copy, 1);
 return (digi);
 return (0);
