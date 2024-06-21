@@ -217,5 +217,10 @@ _putchar('1');
 here --;
 }
 }
+else if (here == 98)
+{
+_putchar('98');
+}
+
 return;
 }
