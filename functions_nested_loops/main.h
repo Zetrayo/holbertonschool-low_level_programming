@@ -4,6 +4,8 @@
 void _putchar(int r);
 int print_sign(int n);
 int _abs(int);
+int print_last_digit(int);
+
 
 int print_alphabet(void)
 {
@@ -99,5 +101,17 @@ else if (n >= 0)
 {
 return (n);
 }
+return (0);
+}
+
+int print_last_digit(int n)
+{
+int digi;
+if (n < 0)
+{
+n = n * -1;
+}
+digi = n % 10;
+return (digi);
 return (0);
 }
