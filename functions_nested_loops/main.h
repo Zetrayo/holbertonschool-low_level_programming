@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <holberton.h>
 
 int jack_bauer(void);
 void _putchar(int r);
