@@ -232,7 +232,7 @@ word [2] = word [2] - 1;
 word [3] = '9';
 }
 word [1] = word [1] - 1;
-word [2] = '9'
+word [2] = '9';
 }
 _putchar('1');
 here --;
