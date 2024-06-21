@@ -3,12 +3,13 @@
 #include <time.h>
 #include <stdio.h>
 
+void times_table(void);
 int jack_bauer(void);
 void _putchar(int r);
 int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
-
+int add(void);
 
 int print_alphabet(void)
 {
@@ -186,5 +187,17 @@ _putchar('\n');
 }
 }
 }
+return (0);
+}
+
+void times_table(void)
+{
+}
+
+int add(int a, int b)
+{
+int yes;
+yes = a + b;
+return (yes);
 return (0);
 }
