@@ -112,9 +112,49 @@ if (n < 0)
 {
 n = n * -1;
 }
-
 digi = n % 10;
-copy = digi;
+if (digi == 0)
+{
+copy = '0';
+}
+else if (digi == 1)
+{
+copy = '1';
+}
+else if (digi == 2)
+{
+copy = '2';
+}
+else if (digi == 3)
+{
+copy = '3';
+}
+else if (digi == 4)
+{
+copy = '4';
+}
+else if (digi == 5)
+{
+copy = '5';
+}
+else if (digi == 6)
+{
+copy = '6';
+}
+else if (digi == 7)
+{
+copy = '7';
+}
+else if (digi == 8)
+{
+copy = '8';
+}
+else if (digi == 9)
+{
+copy = '9';
+}
+
+
 write(1, &copy, 1);
 return (digi);
 return (0);
