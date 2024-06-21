@@ -201,6 +201,10 @@ return (0);
 
 void print_to_98(int here)
 {
+char word [3];
+word [1] = here % 1000 ;
+word [2] = here % 100 ;
+word [3] = here % 10 ;
 if (here < 98)
 {
 while (here < 98)
@@ -213,6 +217,23 @@ else if (here > 98)
 {
 while (here > 98)
 {
+while (word [1] != 0)
+{
+_putchar(word [1]);
+while (word [2] != 0)
+{
+_putchar(word [2]);
+while (word [3] != 0)
+{
+_putchar(word [3]);
+word [3] = word [3] - 1;
+}
+word [2] = word [2] - 1;
+word [3] = '9';
+}
+word [1] = word [1] - 1;
+word [2] = '9'
+}
 _putchar('1');
 here --;
 }
