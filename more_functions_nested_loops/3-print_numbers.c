@@ -1,16 +1,6 @@
 #include "main.h"
 
 /**
- * _putchar - Entry point
- * Description: 'prints one symbol'
- *
- * @r:variable
- * Return: 0 (Success)
- */
-
-int _putchar(char r);
-
-/**
  * print_numbers - Entry point
  * Description: 'prints numbers from 0 to 9'
  *
