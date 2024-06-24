@@ -8,11 +8,7 @@
  * Return: 0 (Success)
  */
 
-int _putchar(char r)
-{
-	write(1, &r, 1);
-	return (0);
-}
+int _putchar(char r);
 
 /**
  * print_numbers - Entry point
