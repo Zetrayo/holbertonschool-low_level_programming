@@ -29,8 +29,8 @@ int print_diagonal(int c)
 		if (a > 0)
 		{
 			_putchar('\\');
-			_putchar('\n');
 		}
+		_putchar('\n');
 		a++;
 	}
 	return (0);
