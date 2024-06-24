@@ -5,14 +5,14 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - Entry point
+ * main - Entry point
  * Description: 'fizz buzz test'
  *
  *
  * Return: 0 (Success)
  */
 
-int fizz_buzz(void)
+int main(void)
 {
 	int a;
 
