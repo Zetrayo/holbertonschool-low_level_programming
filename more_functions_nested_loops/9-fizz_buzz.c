@@ -37,6 +37,7 @@ int main(void)
 		else if (a == 100)
 		{
 			printf("Buzz");
+			a++;
 		}
 		else
 		{
