@@ -29,10 +29,14 @@ int main(void)
 			printf("Fizz ");
 			a++;
 		}
-		else if (a % 5 == 0 && a != 0)
+		else if (a % 5 == 0 && a != 0 && a != 100)
 		{
 			printf("Buzz ");
 			a++;
+		}
+		else if (a == 100)
+		{
+			printf("Buzz");
 		}
 		else
 		{
