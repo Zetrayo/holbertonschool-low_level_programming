@@ -17,7 +17,7 @@ int main(void)
 	int a;
 
 	a = 1;
-	while (a != 100)
+	while (a != 101)
 	{
 		if (a % 3 == 0 && a % 5 == 0 && a != 0)
 		{
