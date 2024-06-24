@@ -29,9 +29,13 @@ int print_diagonal(int c)
 		if (a > 0)
 		{
 			_putchar('\\');
+			if (a != c)
+			{
+				_putchar('\n');
+			}
 		}
-		_putchar('\n');
 		a++;
 	}
+	_putchar('\n');
 	return (0);
 }
