@@ -1,0 +1,11 @@
+0-reset_to_98.c = uses a pointer to set a value to 98
+1-swap.c = uses pointers to swap two values
+2-strlen.c = uses pointers to see how long a string is
+3-puts.c = uses pointers to print a string
+4-print_rev.c = uses pointers to print a string in reverse
+5-rev_string.c = uses pointers to reverse a string
+6-puts2.c = uses pointers to print 1 out of 2 characters in a string
+7-puts_half.c = uses pointers to print the first half of a string
+8-print_array.c = print a certain number of elements in an array
+9-strcpy.c = uses pointers to copy a string
+100-atoi.c = uses pointers to conver a string into an integer
