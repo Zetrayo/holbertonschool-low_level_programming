@@ -19,17 +19,17 @@ int main(void)
 	a = 1;
 	while (a != 101)
 	{
-		if (a % 3 == 0 && a % 5 == 0 )
+		if (a % 3 == 0 && a % 5 == 0)
 		{
 			printf("FizzBuzz");
 			a++;
 		}
-		else if (a % 3 == 0 )
+		else if (a % 3 == 0)
 		{
 			printf("Fizz");
 			a++;
 		}
-		else if (a % 5 == 0 )
+		else if (a % 5 == 0)
 		{
 			printf("Buzz");
 			a++;
@@ -39,8 +39,7 @@ int main(void)
 			printf("%d", a);
 			a++;
 		}
-
-		if (a != 100)
+		if (a != 99)
 		{
 			printf(" ");
 		}
