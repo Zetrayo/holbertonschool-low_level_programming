@@ -39,8 +39,8 @@ int print_triangle(int b)
 		a = b - c;
 	}
 	if (b <= 0)
-		{
-			_putchar('\n');
-		}
-	return (0);
+	{
+		_putchar('\n');
+	}
+return (0);
 }
