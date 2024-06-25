@@ -38,6 +38,5 @@ int print_triangle(int b)
 		c++;
 		a = b - c;
 	}
-	_putchar('\n');
 	return (0);
 }
