@@ -5,14 +5,14 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * print_triangle - Entry point
  * Description: 'prints a triagle using #'
  *
  * @b: number of # at the base of the triangle
  * Return: 0 (Success)
  */
 
-int main(int b)
+int print_triangle(int b)
 {
 	int a, c;
 
