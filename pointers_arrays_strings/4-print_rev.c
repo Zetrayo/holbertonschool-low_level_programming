@@ -11,18 +11,21 @@
 
 int print_rev(char *a)
 {
-	char c, b;
+	char c;
+	int b;
 
-	b = *a;
+	b = 0;
 	while (*a != '\0')
 	{
+		b++;
 		a++;
 	}
-	while (*a != b)
+	while (b != 0)
 	{
 		c = *a;
 		_putchar (c);
 		a--;
+		b--;
 	}
 	_putchar ('\n');
 	return (0);
