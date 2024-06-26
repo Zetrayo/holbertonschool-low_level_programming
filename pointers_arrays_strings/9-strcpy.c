@@ -11,19 +11,15 @@
 
 int _strcpy(char *a)
 {
-	int size;
-	char dest[5000];
+	int length;
+	char b[5000];
 
-	size = 0;
+	length = 0;
 	while (*a != '\0')
 	{
-		dest[size] = *a;
+		b[length] = *a;
 		a++;
-		size++;
+		length++;
 	}
-	if (*a == '\n')
-	{
-		dest[size] = *a;
-	}
-	return (dest);
+	return (*b);
 }
