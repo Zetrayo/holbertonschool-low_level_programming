@@ -14,13 +14,13 @@ int print_rev(char *a)
 	char c;
 	int b;
 
-	b = 0;
+	b = 1;
 	while (*a != '\0')
 	{
 		b++;
 		a++;
 	}
-	while (b != -1)
+	while (b != 1)
 	{
 		a--;
 		c = *a;
