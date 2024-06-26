@@ -14,6 +14,7 @@ int _puts(char *a);
 int print_rev(char *a);
 int rev_string(char *a);
 int puts2(char *a);
+int puts_half(char *a);
 
 
 #endif
