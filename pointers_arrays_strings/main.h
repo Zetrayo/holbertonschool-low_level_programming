@@ -16,5 +16,6 @@ int rev_string(char *a);
 int puts2(char *a);
 int puts_half(char *a);
 int print_array(int *a, int b);
+int _strcpy(char *a);
 
 #endif
