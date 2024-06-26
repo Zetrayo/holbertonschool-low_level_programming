@@ -17,19 +17,15 @@ int rev_string(char *a)
 	length = 0;
 	while (*a != '\0')
 	{
-		length++;
-		a++;
-	}
-
-	rem = length;
-	while (length != 0)
-	{
 		b [length] = *a;
-		a--;
-		length--;
+		a++;
+		length++;
 	}
+	rem = length;
+	length = 0;
 	while (length != rem)
 	{
+		a--;
 		*a = b[length];
 		length++;
 	}
