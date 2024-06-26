@@ -18,7 +18,7 @@ int puts2(char *a)
 	while (*a != '\0')
 	{
 		c = *a;
-		if (b %2 == 0)
+		if (b % 2 == 0)
 		{
 			_putchar (c);
 		}
