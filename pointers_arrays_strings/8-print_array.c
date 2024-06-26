@@ -15,7 +15,7 @@ int print_array(char *a, int b)
 {
 	while (b > 0)
 	{
-		printf("%c, ", *a);
+		printf("%s, ", a);
 		a++;
 		b--;
 	}
