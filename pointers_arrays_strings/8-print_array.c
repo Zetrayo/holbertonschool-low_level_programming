@@ -18,7 +18,7 @@ int print_array(char *a, int b)
 	while (b > 0)
 	{
 		c = *a;
-		printf("%d, ", c);
+		printf("%ld, ", c);
 		a++;
 		b--;
 	}
