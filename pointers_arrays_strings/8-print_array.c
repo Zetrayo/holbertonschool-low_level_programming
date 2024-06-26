@@ -13,7 +13,7 @@
 
 int print_array(char *a, int b)
 {
-	int c;
+	long c;
 
 	while (b > 0)
 	{
