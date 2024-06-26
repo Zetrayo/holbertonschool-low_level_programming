@@ -27,6 +27,5 @@ int print_rev(char *a)
 		a--;
 		b--;
 	}
-	_putchar ('\n');
 	return (0);
 }
