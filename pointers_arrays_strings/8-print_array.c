@@ -13,9 +13,12 @@
 
 int print_array(char *a, int b)
 {
+	char c;
+
 	while (b > 0)
 	{
-		printf("%s, ", a);
+		c = *a;
+		printf("%c, ", c);
 		a++;
 		b--;
 	}
