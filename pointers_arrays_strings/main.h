@@ -15,6 +15,6 @@ int print_rev(char *a);
 int rev_string(char *a);
 int puts2(char *a);
 int puts_half(char *a);
-int print_array(char *a, int b);
+int print_array(int *a, int b);
 
 #endif

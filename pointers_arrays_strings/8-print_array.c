@@ -11,16 +11,15 @@
  * Return: 0 (Success)
  */
 
-int print_array(char *a, int b)
+int print_array(int *a, int b)
 {
-	int c, i;
+	int c;
 
-	i = 0;
 	while (b > 0)
 	{
-		c = a[i];
+		c = *a;
 		printf("%d, ", c);
-		i++;
+		a++;
 		b--;
 	}
 	printf("\n");
