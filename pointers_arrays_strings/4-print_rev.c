@@ -22,10 +22,11 @@ int print_rev(char *a)
 	}
 	while (b != -1)
 	{
+		a--;
 		c = *a;
 		_putchar (c);
-		a--;
 		b--;
 	}
+	_putchar ('\n');
 	return (0);
 }
