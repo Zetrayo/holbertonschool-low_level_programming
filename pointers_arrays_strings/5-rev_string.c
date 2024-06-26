@@ -14,7 +14,7 @@ int rev_string(char *a)
 	int length, rem;
 	char b [100];
 
-	length = 0;
+	length = 1;
 	while (*a != '\0')
 	{
 		length++;
@@ -22,15 +22,15 @@ int rev_string(char *a)
 	}
 	
 	rem = length;
-	length = 0;
+	length = 1;
 	while (length != rem)
 	{
 		a--;
 		b [length] = *a;
 		length++;
 	}
-	length = 0;
-	while (length != 0)
+	length = 1;
+	while (length != rem)
 	{
 		*a = b[length];
 		length++;
