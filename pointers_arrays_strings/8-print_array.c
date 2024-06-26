@@ -15,12 +15,17 @@ int print_array(int *a, int b)
 {
 	int c;
 
-	while (b > 0)
+	while (b > 1)
 	{
 		c = *a;
 		printf("%d, ", c);
 		a++;
 		b--;
+	}
+	if (b == 1)
+	{
+		c = *a;
+		printf("%d", c);
 	}
 	printf("\n");
 	return (0);
