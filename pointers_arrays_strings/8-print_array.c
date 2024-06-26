@@ -13,12 +13,12 @@
 
 int print_array(char *a, int b)
 {
-	char c[1];
+	int c;
 
 	while (b > 0)
 	{
-		c[1] = *a;
-		printf("%c, ", c[1]);
+		c = *a;
+		printf("%d, ", c);
 		a++;
 		b--;
 	}
