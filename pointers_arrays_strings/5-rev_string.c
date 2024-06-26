@@ -12,12 +12,12 @@
 int rev_string(char *a)
 {
 	int length, rem;
-	char b [5000];
+	char b[5000];
 
 	length = 0;
 	while (*a != '\0')
 	{
-		b [length] = *a;
+		b[length] = *a;
 		a++;
 		length++;
 	}
