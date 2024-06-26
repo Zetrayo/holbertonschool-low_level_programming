@@ -12,7 +12,7 @@
 int rev_string(char *a)
 {
 	int length, rem;
-	char b [100];
+	char b [5000];
 
 	length = 0;
 	while (*a != '\0')
