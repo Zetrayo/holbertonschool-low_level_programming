@@ -11,7 +11,7 @@
 
 char *_strcpy(char *a)
 {
-	int length, rem;
+	int length;
 	char b[5000], *dest;
 
 	length = 0;
@@ -21,7 +21,6 @@ char *_strcpy(char *a)
 		a++;
 		length++;
 	}
-	rem = length;
 	if (*a == '\0')
 	{
 		b[length] = *a;
