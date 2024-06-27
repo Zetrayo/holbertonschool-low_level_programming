@@ -9,12 +9,13 @@
  * Return: 0 (Success)
  */
 
-char *_strcpy(char *a)
+int _strcpy(char *a)
 {
-	int length;
+	int length, *ptr;
 	char b[5000];
 
 	length = 0;
+	
 	while (*a != '\0')
 	{
 		b[length] = *a;
@@ -25,5 +26,6 @@ char *_strcpy(char *a)
 	{
 		b[length] = *a;
 	}
-	return (*b);
+	ptr = b;
+	return (ptr);
 }
