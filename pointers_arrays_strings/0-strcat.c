@@ -13,6 +13,7 @@
 char *_strcat(char *a, char *b)
 {
 	int c = 0;
+
 	while (*a != '\0')
 	{
 		a++;
