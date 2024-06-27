@@ -6,12 +6,6 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
-int _putchar(char r)
-{
-	write(1, &r, 1);
-	return (0);
-}
-
 int reset_to_98(int *a);
 int swap_int(int *a, int *b);
 int _strlen(char *a);
