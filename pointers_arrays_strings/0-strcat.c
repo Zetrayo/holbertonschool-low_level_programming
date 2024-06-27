@@ -12,15 +12,23 @@
 
 char *_strcat(char *a, char *b)
 {
+	int c = 0;
 	while (*a != '\0')
 	{
 		a++;
+		c++;
 	}
 	while (*b != '\0')
 	{
 		*a = *b;
 		b++;
 		a++;
+		c++;
+	}
+	while (c != 0)
+	{
+		a--;
+		c--;
 	}
 	return (a);
 }
