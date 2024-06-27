@@ -9,7 +9,7 @@
  * Return: 0 (Success)
  */
 
-int _strcpy(char *a)
+char *_strcpy(char *a)
 {
 	int length;
 	char b[5000];
@@ -21,5 +21,9 @@ int _strcpy(char *a)
 		a++;
 		length++;
 	}
-	return (*b);
+	if (*a == '\0')
+	{
+		b[length] = *a;
+	}
+	return (b);
 }
