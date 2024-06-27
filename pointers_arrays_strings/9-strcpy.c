@@ -25,5 +25,5 @@ char *_strcpy(char *a)
 	{
 		b[length] = *a;
 	}
-	return (b);
+	return (*b);
 }
