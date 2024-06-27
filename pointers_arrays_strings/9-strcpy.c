@@ -29,7 +29,7 @@ char *_strcpy(char *a)
 	{
 		a--;
 		length--;
-		b[length] = 5;
+		b[length] = length + '0';
 	}
 	dest = b;
 	return (dest);
