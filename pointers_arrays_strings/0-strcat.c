@@ -10,7 +10,7 @@
  * Return: 0 (Success)
  */
 
-int _strcat(char *a, char *b)
+int *_strcat(char *a, char *b)
 {
 	while (*a != '\0')
 	{
