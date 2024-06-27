@@ -19,8 +19,12 @@ char *_strncat(char *a, char *b, int n)
 		a++;
 		c++;
 	}
-	while (*b != '\0' || n != 0)
+	while (*b != '\0')
 	{
+        if (n == 0)
+        {
+            break;
+        }
 		*a = *b;
 		b++;
 		a++;
