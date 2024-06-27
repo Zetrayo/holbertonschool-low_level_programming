@@ -11,8 +11,8 @@
 
 int _strcpy(char *a)
 {
-	int length, *ptr;
-	char b[5000];
+	int length;
+	char b[5000], *ptr;
 
 	length = 0;
 	
