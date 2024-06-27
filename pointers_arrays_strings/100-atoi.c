@@ -43,6 +43,7 @@ int _atoi(char *a)
 			{
 				val = -val;
 			}
+			break;
 		}
 		a++;
 	}
