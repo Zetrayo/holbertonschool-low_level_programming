@@ -9,6 +9,7 @@
 int _putchar(char r)
 {
 	write(1, &r, 1);
+	return (0);
 }
 
 int reset_to_98(int *a);
