@@ -6,7 +6,11 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
-int _putchar(char r);
+int _putchar(char r)
+{
+	write(1, &r, 1);
+}
+
 int reset_to_98(int *a);
 int swap_int(int *a, int *b);
 int _strlen(char *a);
@@ -18,5 +22,6 @@ int puts_half(char *a);
 int print_array(int *a, int b);
 char *_strcpy(char *a);
 int _atoi(char *a);
+char *_strcat(char *a, char *b);
 
 #endif
