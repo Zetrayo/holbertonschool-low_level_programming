@@ -7,6 +7,7 @@
  *
  * @a: pointer pointing to string
  * @b: pointer pointing to string
+ * @n: how many charactes of b to copy
  * Return: 0 (Success)
  */
 
@@ -21,15 +22,15 @@ char *_strncat(char *a, char *b, int n)
 	}
 	while (*b != '\0')
 	{
-        if (n == 0)
-        {
-            break;
-        }
+		if (n == 0)
+		{
+			break;
+		}
 		*a = *b;
 		b++;
 		a++;
 		c++;
-        n--;
+		n--;
 	}
 	while (c != 0)
 	{
