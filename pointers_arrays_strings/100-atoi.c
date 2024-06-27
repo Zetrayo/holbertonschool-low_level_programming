@@ -16,6 +16,7 @@ int _atoi(char *a)
 
 	minu = 0;
 	plus = 0;
+	val = 0;
 	while (*a != '\0')
 	{
 		if (*a == '-')
@@ -30,7 +31,13 @@ int _atoi(char *a)
 		{
 			while (*a <= 57 && *a >= 48)
 			{
-				val = *a + '0';
+				val = val + (*a - '0');
+				a++;
+				if (*a < 48 || *a > 57)
+				{
+					break;
+				}
+				val = val * 10;
 			}
 			if (minu > plus)
 			{
@@ -39,6 +46,5 @@ int _atoi(char *a)
 		}
 		a++;
 	}
-	_putchar ('\n');
-	return (0);
+	return (val);
 }
