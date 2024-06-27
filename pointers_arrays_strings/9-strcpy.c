@@ -9,7 +9,7 @@
  * Return: 0 (Success)
  */
 
-int _strcpy(char *a)
+char _strcpy(char *a)
 {
 	int length;
 	char b[5000], *ptr;
