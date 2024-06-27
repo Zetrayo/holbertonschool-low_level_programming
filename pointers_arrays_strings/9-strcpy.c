@@ -25,6 +25,11 @@ char *_strcpy(char *a)
 	{
 		b[length] = *a;
 	}
+	while (length != 0)
+	{
+		a--;
+		length--;
+	}
 	ptr = b;
 	return (ptr);
 }
