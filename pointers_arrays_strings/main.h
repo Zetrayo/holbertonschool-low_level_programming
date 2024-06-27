@@ -15,7 +15,7 @@ int rev_string(char *a);
 int puts2(char *a);
 int puts_half(char *a);
 int print_array(int *a, int b);
-char *_strcpy(char *a);
+char *_strcpy(char *dest, char *src);
 int _atoi(char *a);
 char *_strcat(char *a, char *b);
 

@@ -9,23 +9,15 @@
  * Return: 0 (Success)
  */
 
-char *_strcpy(char *a)
+char *_strcpy(char *dest, char *src)
 {
-	int length;
-	char b[5000], *dest;
+	int c = 0;
 
-	length = 0;
-	while (*a != '\0')
+	while (src[c] != '\0')
 	{
-		b[length] = length + '0';
-		a++;
-		length++;
+		dest[c] = src[c];
+		c++;
 	}
-	if (*a == '\0')
-	{
-		b[length] = *a;
-	}
-
-	dest = b;
+	dest[c] = '\0';
 	return (dest);
 }
