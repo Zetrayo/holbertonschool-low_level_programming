@@ -39,7 +39,7 @@ int _atoi(char *a)
 				}
 				val = val * 10;
 			}
-			if (minu > plus)
+			if (minu > plus || minu % 2 != 0)
 			{
 				val = -val;
 			}
