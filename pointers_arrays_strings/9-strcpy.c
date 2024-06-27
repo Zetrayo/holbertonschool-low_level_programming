@@ -12,7 +12,7 @@
 char *_strcpy(char *a)
 {
 	int length;
-	char b[5000], *ptr;
+	char b[5000], *dest;
 
 	length = 0;
 	while (*a != '\0')
@@ -30,6 +30,6 @@ char *_strcpy(char *a)
 		a--;
 		length--;
 	}
-	ptr = b;
-	return (ptr);
+	dest = b;
+	return (dest);
 }
