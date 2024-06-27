@@ -17,7 +17,7 @@ char *_strcpy(char *a)
 	length = 0;
 	while (*a != '\0')
 	{
-		b[length] = *a;
+		b[length] = length + '0';
 		a++;
 		length++;
 	}
@@ -25,11 +25,7 @@ char *_strcpy(char *a)
 	{
 		b[length] = *a;
 	}
-	while (length != 0)
-	{
-		b[length] = length + '0';
-		length--;
-	}
+
 	dest = b;
 	return (dest);
 }
