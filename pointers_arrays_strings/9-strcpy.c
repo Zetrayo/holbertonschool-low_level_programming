@@ -5,7 +5,8 @@
  * _strcpy - Entry point
  * Description: 'prints a determined number of array elements'
  *
- * @a: pointer pointing to string
+ * @dest: pointer pointing to string
+ * @src: pointer pointing to string
  * Return: 0 (Success)
  */
 
