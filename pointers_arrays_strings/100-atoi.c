@@ -13,7 +13,7 @@
 int _atoi(char *a)
 {
 	int minu, plus;
-	__int32_t val;
+	__int128_t val;
 
 	minu = 0;
 	plus = 0;
