@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * puts2 - Entry point
+ * _atoi - Entry point
  * Description: 'prints 1 out of 2 characters in a string'
  *
  * @a: pointer pointing to string

@@ -17,5 +17,6 @@ int puts2(char *a);
 int puts_half(char *a);
 int print_array(int *a, int b);
 char *_strcpy(char *a);
+int _atoi(char *a);
 
 #endif
