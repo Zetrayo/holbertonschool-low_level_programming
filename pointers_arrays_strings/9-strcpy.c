@@ -11,7 +11,7 @@
 
 char *_strcpy(char *a)
 {
-	int length;
+	int length, rem;
 	char b[5000], *dest;
 
 	length = 0;
@@ -21,15 +21,15 @@ char *_strcpy(char *a)
 		a++;
 		length++;
 	}
+	rem = length;
 	if (*a == '\0')
 	{
 		b[length] = *a;
 	}
-	while (length != 0)
+	while (length != rem * 2)
 	{
-		a--;
-		length--;
 		b[length] = length + '0';
+		length++;
 	}
 	dest = b;
 	return (dest);
