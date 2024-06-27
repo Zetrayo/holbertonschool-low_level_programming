@@ -26,10 +26,10 @@ char *_strcpy(char *a)
 	{
 		b[length] = *a;
 	}
-	while (length != rem * 2)
+	while (length != 0)
 	{
 		b[length] = length + '0';
-		length++;
+		length--;
 	}
 	dest = b;
 	return (dest);
