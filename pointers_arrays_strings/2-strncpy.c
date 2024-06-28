@@ -36,5 +36,5 @@ char *_strncpy(char *a, char *b, int n)
 		n--;
 	}
 	e[c] = '\0';
-	return (e);
+	return (&e);
 }
