@@ -14,13 +14,10 @@
 char *_strncpy(char *a, char *b, int n)
 {
 	int c = 0, d = n;
+	char f = *b;
 
-	while (d != 0)
+	while (d != 0 && f != '0')
 	{
-		if (b[c] == "")
-		{
-			break;
-		}
 		*a = *b;
 		a++;
 		c++;
