@@ -17,6 +17,10 @@ char *_strncpy(char *a, char *b, int n)
 
 	while (d != 0)
 	{
+		if (*b == "")
+		{
+			break;
+		}
 		*a = *b;
 		a++;
 		c++;
