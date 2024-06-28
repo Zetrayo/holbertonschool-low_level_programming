@@ -14,11 +14,10 @@
 char *_strncpy(char *a, char *b, int n)
 {
 	int c = 0, d = n;
-	char e[100];
 
 	while (d != 0)
 	{
-		e[c] = *b;
+		*a = *b;
 		a++;
 		c++;
 		b++;
@@ -30,11 +29,9 @@ char *_strncpy(char *a, char *b, int n)
 		{
 			break;
 		}
-		e[c] = *a;
 		a++;
 		c++;
 		n--;
 	}
-	e[c] = '\0';
-	return (&e);
+	return (a);
 }
