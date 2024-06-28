@@ -33,6 +33,8 @@ int _strcmp(char *a, char *b)
 		{
 			count++;
 		}
+		a++;
+		b++;
 	}
 	return (count);
 }
