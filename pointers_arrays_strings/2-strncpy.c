@@ -15,12 +15,15 @@ char *_strncpy(char *a, char *b, int n)
 {
     int c = 0, d = n;
 
-    while (d != 0 && *b != '\0')
+    while (d != 0)
     {
         *a = *b;
         a++;
         c++;
-        b++;
+		if (*b != '\0')
+		{
+			b++;
+		}
         d--;
     }
     while (*a != '\0' && *b != '\0')
