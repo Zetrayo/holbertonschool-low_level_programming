@@ -23,7 +23,7 @@ char *_strncpy(char *a, char *b, int n)
 		b++;
 		d--;
 	}
-	while (*a != '\0')
+	while (*a != '\0' && b[1] != '\0')
 	{
 		if (n == 0)
 		{
