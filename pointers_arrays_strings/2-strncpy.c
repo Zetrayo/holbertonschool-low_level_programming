@@ -11,34 +11,30 @@
  * Return: 0 (Success)
  */
 
-char *_strncpy(char *b, char *a, int n)
+char *_strncpy(char *a, char *b, int n)
 {
 	int c = 0, d = n;
+	char e[100];
 
 	while (d != 0)
 	{
+		e[c] = *b;
 		a++;
 		c++;
 		b++;
 		d--;
 	}
-	while (*b != '\0')
+	while (*a != '\0')
 	{
 		if (n == 0)
 		{
 			break;
 		}
-		*a = *b;
-		b++;
+		e[c] = *a;
 		a++;
 		c++;
 		n--;
 	}
-	*a = '\0';
-	while (c != 0)
-	{
-		a--;
-		c--;
-	}
-	return (a);
+	e[c] = '\0';
+	return (e);
 }
