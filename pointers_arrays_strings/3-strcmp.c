@@ -28,4 +28,5 @@ int _strcmp(char *a, char *b)
 	{
 		return(15);
 	}
+	return(0);
 }
