@@ -13,30 +13,30 @@
 
 char *_strncpy(char *a, char *b, int n)
 {
-	int c = 0, d = n;
+    int c = 0, d = n;
 
-	while (d != 0 && *b != '\n')
-	{
-		*a = *b;
-		a++;
-		c++;
-		b++;
-		d--;
-	}
-	while (*a != '\0' && *b != '\n')
-	{
-		if (n == 0)
-		{
-			break;
-		}
-		a++;
-		c++;
-		n--;
-	}
-	while (c != 0)
-	{
-		a--;
-		c--;
-	}
-	return (a);
+    while (d != 0 && *b != '\0')
+    {
+        *a = *b;
+        a++;
+        c++;
+        b++;
+        d--;
+    }
+    while (*a != '\0' && *b != '\0')
+    {
+        if (n == 0)
+        {
+            break;
+        }
+        a++;
+        c++;
+        n--;
+    }
+    while (c != 0)
+    {
+        a--;
+        c--;
+    }
+    return (a);
 }
