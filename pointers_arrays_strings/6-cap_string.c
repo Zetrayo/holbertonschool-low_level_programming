@@ -19,7 +19,7 @@ char *cap_string(char *a)
 		{
 			key = 1;
 		}
-		if (*a <= 127 && *a >= 123)
+		if (*a <= 126 && *a >= 123)
 		{
 			key = 1;
 		}
