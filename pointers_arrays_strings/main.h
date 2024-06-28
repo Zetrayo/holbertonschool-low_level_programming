@@ -22,5 +22,6 @@ char *_strncat(char *a, char *b, int n);
 char *_strncpy(char *b, char *a, int n);
 int _strcmp(char *a, char *b);
 int reverse_array(int *a, int n);
+char *string_toupper(char *a);
 
 #endif
