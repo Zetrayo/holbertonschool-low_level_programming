@@ -12,7 +12,7 @@
 
 int _strcmp(char *a, char *b)
 {
-	int count = 0;
+	int c = 0;
 
 	while (*a == *b)
 	{
@@ -23,18 +23,6 @@ int _strcmp(char *a, char *b)
 		a++;
 		b++;
 	}
-	while (*a != '\0' || *b != '\0')
-	{
-		if (*a > *b)
-		{
-			count--;
-		}
-		else if (*a < *b)
-		{
-			count++;
-		}
-		a++;
-		b++;
-	}
-	return (count);
+	c = (*a - *b);
+	return (c);
 }
