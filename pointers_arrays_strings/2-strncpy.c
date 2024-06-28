@@ -5,26 +5,40 @@
  * _strncpy - Entry point
  * Description: 'prints a determined number of array elements'
  *
- * @dest: pointer pointing to string
- * @src: pointer pointing to string
+ * @a: pointer pointing to string
+ * @b: pointer pointing to string
  * @n: number of characters to copy
  * Return: 0 (Success)
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strncpy(char *a, char *b, int n)
 {
-	int c = 0;
+	int c = 0, d = n;
 
-	if (n > 0)
+	while (d != 0)
 	{
-		n = 25;
-	}
-	
-	while (src[c] != '\0')
-	{
-		dest[c] = src[c];
+		a++;
 		c++;
+		b++;
+		d--;
 	}
-	dest[c] = '\0';
-	return (dest);
+	while (*b != '\0')
+	{
+		if (n == 0)
+		{
+			break;
+		}
+		*a = *b;
+		b++;
+		a++;
+		c++;
+		n--;
+	}
+	*a = '\0';
+	while (c != 0)
+	{
+		a--;
+		c--;
+	}
+	return (a);
 }
