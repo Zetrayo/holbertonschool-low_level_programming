@@ -19,6 +19,6 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *a);
 char *_strcat(char *a, char *b);
 char *_strncat(char *a, char *b, int n);
-char *_strncpy(char *a, char *b, int n);
+char *_strncpy(char *b, char *a, int n);
 
 #endif

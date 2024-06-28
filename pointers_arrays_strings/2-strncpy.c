@@ -11,7 +11,7 @@
  * Return: 0 (Success)
  */
 
-char *_strncpy(char *a, char *b, int n)
+char *_strncpy(char *b, char *a, int n)
 {
 	int c = 0, d = n;
 
