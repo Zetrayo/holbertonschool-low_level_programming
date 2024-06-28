@@ -33,5 +33,10 @@ char *_strncpy(char *a, char *b, int n)
 		c++;
 		n--;
 	}
+	while (c != 0)
+	{
+		a--;
+		c--;
+	}
 	return (a);
 }
