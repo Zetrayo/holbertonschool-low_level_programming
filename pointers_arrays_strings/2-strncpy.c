@@ -16,7 +16,7 @@ char *_strncpy(char *a, char *b, int n)
 	int c = 0, d = n;
 	char f = *b;
 
-	while (d != 0 && f != '0')
+	while (d != 0 && b[1] != '\0')
 	{
 		*a = *b;
 		a++;
