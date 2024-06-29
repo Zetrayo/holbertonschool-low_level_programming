@@ -8,7 +8,7 @@
  * @a: pointer pointing to string
  * Return: 0 (Success)
  */
-
+/*
 char *cheto(char *a)
 {
 	int c = 0;
@@ -45,3 +45,4 @@ char *cheto(char *a)
 	}
 	return (a);
 }
+*/
