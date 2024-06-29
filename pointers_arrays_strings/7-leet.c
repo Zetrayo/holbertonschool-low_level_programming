@@ -1,6 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 
+char *cheto(char *a);
 /**
  * *leet - Entry point
  * Description: 'leet'
