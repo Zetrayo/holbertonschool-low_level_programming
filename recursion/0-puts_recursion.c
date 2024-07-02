@@ -5,8 +5,11 @@
  * _puts_recursion - Entry point
  * Description: 'prints a string, followed by a new line.'
  * @s: string
+ * @c: char to print
  */
+
 void _putchar(char c);
+
 void _puts_recursion(char *s)
 {
 	int key = 0;
