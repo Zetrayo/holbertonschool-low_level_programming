@@ -1,14 +1,11 @@
 #include "main.h"
 #include <unistd.h>
-
+void _putchar(char c);
 /**
  * _puts_recursion - Entry point
  * Description: 'prints a string, followed by a new line.'
  * @s: string
- * @c: char to print
  */
-
-void _putchar(char c);
 
 void _puts_recursion(char *s)
 {
