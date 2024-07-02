@@ -17,16 +17,16 @@ int _pow_recursion(int x, int y)
 		rem = x;
 		key = 0;
 	}
-	if (y < 0)
+	if (y < 0 && key == 0)
 	{
 		return (-1);
 	}
-	if (y > 0)
+	if (y > 0 && key == 0)
 	{
 		x = x * rem;
 		y--;
 	}
-	if (y == 1)
+	if (y == 1 && key == 0)
 	{
 		key = 1;
 	}
@@ -34,5 +34,10 @@ int _pow_recursion(int x, int y)
 	{
 		_pow_recursion(x, y);
 	}
-	return (x);
+	if (key == 1)
+	{
+		rem = x;
+		key = 4;
+	}
+	return (rem);
 }
