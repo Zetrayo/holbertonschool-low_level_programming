@@ -1,6 +1,7 @@
 #include "main.h"
 #include <unistd.h>
-
+void _putchar(char c);
+int i = 0, key = 0;
 /**
  * _print_rev_recursion - Entry point
  * Description: 'prints a string in reverse.'
@@ -9,17 +10,20 @@
 
 void _print_rev_recursion(char *s)
 {
-	int i = 0;
-
-	while (*s != '\0')
+	if (*s != '\0' && key == 0)
 	{
 		s++;
 		i++;
 	}
-	while (i != 0)
+	if (*s == '\0')
+	{
+		key = 1;
+	}
+	if (i != 0 && key == 1)
 	{
 		s--;
 		i--;
-		putchar(*s);
+		_putchar(*s);
 	}
+	_print_rev_recursion(s);
 }
