@@ -1,6 +1,7 @@
 #include "main.h"
 #include <unistd.h>
-
+void _putchar(char c);
+int count = 1, key = 0, rem;
 /**
  * _sqrt_recursion - Entry point
  * Description: 'returns the natural square root of a number.'
@@ -16,9 +17,17 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	while (i * i != n)
+	if (i * i != n)
 	{
 		i++;
+	}
+	if (i * i == n)
+	{
+		key = 1;
+	}
+	if (key == 0)
+	{
+		_sqrt_recursion(n);
 	}
 	return (i);
 }
