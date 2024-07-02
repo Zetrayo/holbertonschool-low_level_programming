@@ -1,5 +1,6 @@
 #include "main.h"
 #include <unistd.h>
+void _putchar(char c);
 int i = 0, key = 0;
 /**
  * _strlen_recursion - Entry point
