@@ -20,17 +20,17 @@ int is_prime_number(int n)
 	{
 		if (i == 9)
 		{
-			return (1);
+			key = 1;
 		}
 		i++;
 	}
 	if (n % i == 0 && i == 9)
 	{
-		key = 1;
+		key = 0;
 	}
 	if (key == 0)
 	{
 		is_prime_number(n);
 	}
-	return (0);
+	return (key);
 }
