@@ -6,7 +6,7 @@
  * Description: 'prints a string, followed by a new line.'
  * @s: string
  */
-
+void _putchar(char c);
 void _puts_recursion(char *s)
 {
 	int key = 0;
