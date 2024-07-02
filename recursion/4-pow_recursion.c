@@ -3,7 +3,7 @@
 void _putchar(char c);
 int count = 1, key = 3, rem;
 /**
- * _sqrt_recursion - Entry point
+ * _pow_recursion - Entry point
  * Description: 'returns the value of x raised to the power of y.'
  * @x: number to increase
  * @y: number to multiply x by
