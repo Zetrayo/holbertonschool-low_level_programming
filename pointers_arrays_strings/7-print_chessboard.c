@@ -17,10 +17,10 @@ void print_chessboard(char (*a)[8])
 	{
 		while (b != 8)
 		{
-			_putchar(a[i][b]);
+			putchar(a[i][b]);
 			b++;
 		}
-		_putchar('\n');
+		putchar('\n');
 		b = 0;
 		i++;
 	}
