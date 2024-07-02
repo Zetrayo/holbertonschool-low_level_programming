@@ -1,6 +1,6 @@
 #include "main.h"
 #include <unistd.h>
-
+int i = 0;
 /**
  * _strlen_recursion - Entry point
  * Description: 'returns the length of a string.'
@@ -10,12 +10,11 @@
 
 int _strlen_recursion(char *s)
 {
-	int i = 0;
-
-	while (*s != '\0')
+	if (*s == '\0')
 	{
-		s++;
-		i++;
+		return (i);
 	}
-	return (i);
+	s++;
+	i++;
+	_strlen_recursion(s);
 }
