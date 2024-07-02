@@ -25,5 +25,12 @@ void _print_rev_recursion(char *s)
 		i--;
 		_putchar(*s);
 	}
-	_print_rev_recursion(s);
+	if (i == 0 && key == 1)
+	{
+		key = 2;
+	}
+	if (key == 1 || key == 0)
+	{
+		_print_rev_recursion(s);
+	}
 }
