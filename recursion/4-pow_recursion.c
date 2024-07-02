@@ -17,6 +17,10 @@ int _pow_recursion(int x, int y)
 		rem = x;
 		key = 0;
 	}
+	if (y == 0 && key == 0)
+	{
+		return (1);
+	}
 	if (y < 0 && key == 0)
 	{
 		return (-1);
