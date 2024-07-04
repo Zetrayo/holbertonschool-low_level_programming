@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	}
 	while (i < argc)
 	{
-		if (*argv[i] > 57 || *argv[i] < 48)
+		if (strtol(argv[i], &output, 10) == 9)
 		{
 			printf("Error\n");
 			return (1);
