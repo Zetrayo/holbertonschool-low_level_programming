@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -11,13 +12,14 @@
 int main(int argc, char *argv[])
 {
 	int a;
+    char *output;
 
 	if (argc < 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	a = (*argv[1] - '0') * (*argv[2] - '0');
+	a = (strtol(argv[1], &output, 10)) * (strtol(argv[2], &output, 10));
 	printf("%d\n", a);
 	return (0);
 }
