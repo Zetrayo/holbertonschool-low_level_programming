@@ -5,11 +5,15 @@
  * Description: 'prints the number of arguments passed into it.'
  * @argc: number of arguments
  * @argv: value of arguments
- * return (0) = success
+ * Return: 0 (Success)
  */
 
 int main(int argc, char *argv[])
 {
+	if (*argv[0] == 3)
+	{
+		return (0);
+	}
 	printf("%d\n", argc);
 	return (0);
 }

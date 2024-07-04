@@ -1,16 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
  * Description: 'adds positive numbers.'
  * @argc: number of arguments
  * @argv: value of arguments
- * return (0) = success
+ * Return: 0 (Success)
  */
 
 int main(int argc, char *argv[])
 {
-	int a = 0, i = -1;
+	int a = 0, i = 1;
+	char *output;
 
 	if (argc == 0)
 	{
@@ -18,19 +20,19 @@ int main(int argc, char *argv[])
 	}
 	while (i < argc)
 	{
-		i++;
-		if (argv[i] > 57 || argv[i] < 47)
+		if (*argv[i] > 57 || *argv[i] < 48)
 		{
 			printf("Error\n");
 			return (1);
 		}
+		i++;
 	}
-	i = -1;
+	i = 1;
 	while (i < argc)
 	{
+		a = a + strtol(argv[i], &output, 10);
 		i++;
-		a = a + *argv[i];
 	}
-	printf("%d", a);
+	printf("%d\n", a);
 	return (0);
 }
