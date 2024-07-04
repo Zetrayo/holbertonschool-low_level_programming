@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int a;
-    char *output;
+	char *output;
 
 	if (argc < 3)
 	{
