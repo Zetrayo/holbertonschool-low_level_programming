@@ -11,8 +11,8 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *ptr = (char*)malloc(size * sizeof(char));
-	int i = 0;
+	char *ptr = (char *)malloc(size * sizeof(char));
+	unsigned int i = 0;
 
 	if (size <= 0)
 	{
@@ -20,8 +20,7 @@ char *create_array(unsigned int size, char c)
 	}
 	while (i != size)
 	{
-		*ptr = c;
-		ptr++;
+		ptr[i] = c;
 		i++;
 	}
 	return (ptr);
