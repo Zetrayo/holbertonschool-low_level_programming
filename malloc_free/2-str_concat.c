@@ -14,11 +14,11 @@ char *str_concat(char *s1, char *s2)
 	char *ptr;
 	int i = 0, o = 0;
 
-	while (s1[i] != '\0')
+	while (s1 != NULL && s1[i] != '\0')
 	{
 		i++;
 	}
-	while (s2[o] != '\0')
+	while (s2 != NULL && s2[o] != '\0')
 	{
 		o++;
 	}
@@ -29,18 +29,18 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 	i = 0;
-	while (s1[i] != '\0')
+	while (s1 != NULL && s1[i] != '\0')
 	{
 		ptr[i] = s1[i];
 		i++;
 	}
 	o = 0;
-	while (s2[o] != '\0')
+	while (s2 != NULL && s2[o] != '\0')
 	{
 		ptr[i] = s2[o];
 		i++;
 		o++;
 	}
-	ptr[i] = s2[o];
+	ptr[i] = '\0';
 	return (ptr);
 }
