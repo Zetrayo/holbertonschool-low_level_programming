@@ -8,14 +8,15 @@
  * Return: 98 (Fail)
  */
 
-int malloc_checked(unsigned int b)
+void *malloc_checked(unsigned int b)
 {
-	int *ptr;
+	int *ptr, *what, a = 98;
 
-	ptr = (int *)malloc(b * sizeof(unsigned int));
+	what = &a;
+	ptr = malloc(b);
 	if (ptr == NULL)
 	{
-		return (98);
+		return (what);
 	}
-	return (*ptr);
+	return (ptr);
 }
