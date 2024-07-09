@@ -19,6 +19,16 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 	b = nmemb - 1;
+	while (a <= b / 4)
+	{
+		ptr[a] = 0;
+		a++;
+	}
+	while (a <= b / 2)
+	{
+		ptr[a] = 0;
+		a++;
+	}
 	while (a != b)
 	{
 		ptr[a] = 0;
