@@ -10,13 +10,12 @@
 
 void *malloc_checked(unsigned int b)
 {
-	int *ptr, *what, a = 98;
+	int *ptr;
 
-	what = &a;
 	ptr = malloc(b);
 	if (ptr == NULL)
 	{
-		return (what);
+		return (NULL);
 	}
 	return (ptr);
 }
