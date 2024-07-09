@@ -11,8 +11,12 @@
 
 int **alloc_grid(int width, int height)
 {
-	int arr[2000][2000], i = 0, j = 0, *ptr;
+	int *arr[2000][2000], i = 0, j = 0, **ptr;
 
+	if (width <= 0 || height <= 0)
+	{
+		return (NULL);
+	}
 	while (i < 2000)
 	{
 		while (j < 2000)
@@ -23,6 +27,6 @@ int **alloc_grid(int width, int height)
 		j = 0;
 		i++;
 	}
-	*ptr = arr;
+	ptr = &arr[0][0];
 	return (ptr);
 }
