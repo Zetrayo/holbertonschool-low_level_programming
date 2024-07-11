@@ -2,7 +2,7 @@
 #define DOG_H_
 
 /**
- * dog - Entry point
+ * struct dog - Entry point
  * Description: 'is dog'
  */
 struct dog
