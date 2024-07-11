@@ -9,7 +9,7 @@
  * @owner: owner of dog
  */
 
-void init_dog(struct dog *d, char *nam, float ag, char *owne)
+void init_dog(struct dog *doggo, char *nam, float ag, char *owne)
 {
-	struct dog b = {.name = nam, .age = ag, .owner = owne};
+	struct dog doggo = {.name = nam, .age = ag, .owner = owne};
 }
