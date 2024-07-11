@@ -31,7 +31,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	while (a <= nmemb / 4 && size == 1)
 	{
 		ptr[a] = 0;
-		a++;
+		a = a + 2;
 	}
 	return (ptr);
 }
