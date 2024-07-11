@@ -1,3 +1,8 @@
+#include <unistd.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
 #ifndef DOG_H_
 #define DOG_H_
 
