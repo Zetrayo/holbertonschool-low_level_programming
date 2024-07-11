@@ -13,23 +13,13 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int *ptr, a = 0, b;
 
-	ptr = malloc(nmemb * size);
+	ptr = (int *)malloc(size * nmemb);
 	if (ptr == NULL)
 	{
 		return (NULL);
 	}
-	b = nmemb - 1;
-	while (a <= b / 4)
-	{
-		ptr[a] = 0;
-		a++;
-	}
-	while (a <= b / 2)
-	{
-		ptr[a] = 0;
-		a++;
-	}
-	while (a != b)
+	b = 24;
+	while (a < b)
 	{
 		ptr[a] = 0;
 		a++;
