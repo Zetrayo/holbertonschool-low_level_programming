@@ -13,7 +13,7 @@ void print_dog(struct dog *doggo)
 	if (doggo != NULL)
 	{
 		printf("%s", doggo->name);
-		printf("%d", doggo->age);
+		printf("%f", doggo->age);
 		printf("%s", doggo->owner);
 	}
 }
