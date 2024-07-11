@@ -4,6 +4,9 @@
 /**
  * struct dog - Entry point
  * Description: 'is dog'
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
  */
 struct dog
 {
