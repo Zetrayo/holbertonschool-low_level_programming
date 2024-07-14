@@ -8,12 +8,12 @@
  * @age: age of dog
  * @owner: owner of dog
  */
-struct dog
+struct my_dog
 {
 	char *name;
 	float age;
 	char *owner;
-} dog_t, doggo;
+} dog_t;
 
 void init_dog(struct dog *doggo, char *nam, float ag, char *owne);
 void print_dog(struct dog *doggo);
