@@ -13,9 +13,9 @@ struct my_dog
 	char *name;
 	float age;
 	char *owner;
-} dog_t;
+} dog_t, dog;
 
-void init_dog(struct dog *doggo, char *nam, float ag, char *owne);
-void print_dog(struct dog *doggo);
+void init_dog(struct my_dog *doggo, char *nam, float ag, char *owne);
+void print_dog(struct my_dog *doggo);
 
 #endif
