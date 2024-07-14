@@ -46,9 +46,11 @@ int _strlen(char *s)
 }
 
 /**
- * *new_dog - Entry point
- * Description: 'makes a new dog'
- * @new_dog: new dog
+ * new_dog - creates a new dog
+ * @name: name
+ * @age: age
+ * @owner: owner
+ * Return: pointer to new struct
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
