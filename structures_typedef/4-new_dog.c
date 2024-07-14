@@ -8,6 +8,32 @@
  * @new_dog: new dog
  */
 
+char *_strcpy(char *dest, char *src)
+{
+	int i;
+
+	i = 0;
+	while (*(src + i) != '\0')
+	{
+		*(dest + i) = *(src + i);
+		i++;
+	}
+	*(dest + i) = '\0';
+	return (dest);
+}
+
+int _strlen(char *s)
+{
+	int count = 0;
+
+	if (s != '\0')
+	{
+		while (*(s + count) != '\0')
+			count++;
+	}
+	return (count);
+}
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	int len_name, len_owner;
