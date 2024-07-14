@@ -3,9 +3,12 @@
 #include <stdlib.h>
 
 /**
- * *new_dog - Entry point
- * Description: 'makes a new dog'
- * @new_dog: new dog
+ * _strcpy - copies the string with \0 to the buffer
+ * @dest: pointer to dest
+ * @src: pointer to string
+ *
+ * Return: the pointer to dest
+ *
  */
 
 char *_strcpy(char *dest, char *src)
@@ -19,8 +22,15 @@ char *_strcpy(char *dest, char *src)
 		i++;
 	}
 	*(dest + i) = '\0';
-	return (dest);
 }
+
+/**
+ * _strlen - returns the lenght of a string
+ * @s: pointer to s
+ *
+ * Return: 0 on success
+ *
+ */
 
 int _strlen(char *s)
 {
@@ -33,6 +43,12 @@ int _strlen(char *s)
 	}
 	return (count);
 }
+
+/**
+ * *new_dog - Entry point
+ * Description: 'makes a new dog'
+ * @new_dog: new dog
+ */
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
