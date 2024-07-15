@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <stdio.h>
 
 #ifndef CALC_H_
 #define CALC_H_

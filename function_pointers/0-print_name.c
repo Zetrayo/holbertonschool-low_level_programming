@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void print_name(char *name, void (*f)(char *));
 /**
  * print_name_as_is - prints a name as is
@@ -39,7 +41,8 @@ void print_name_uppercase(char *name)
 /**
  * print_name - prints the name
  * @name: name to print
- * 
+ * @f: function
+ *
  * Return: Nothing
  */
 void print_name(char *name, void (*f)(char *))
