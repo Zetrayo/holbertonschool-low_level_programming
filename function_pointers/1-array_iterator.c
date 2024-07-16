@@ -12,10 +12,6 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	long unsigned int a = 0;
 
-	if (array == NULL || action == NULL || size == 0)
-	{
-		return (NULL);
-	}
 	while (size > a)
 	{
 		(*action)(array[a]);
