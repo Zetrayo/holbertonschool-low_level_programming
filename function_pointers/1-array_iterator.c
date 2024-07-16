@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * print_name - prints the name
+ * array_iterator - prints the array using a function
  * @array: array
  * @size: size of array
  * @action: function
@@ -10,11 +10,11 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int a = 0;
+	long unsigned int a = 0;
 
 	if (array == NULL || action == NULL || size == 0)
 	{
-		return;
+		return (NULL);
 	}
 	while (size > a)
 	{
