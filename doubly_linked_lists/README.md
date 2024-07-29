@@ -1,4 +1,4 @@
-# singly_linked_lists
+# doubly_linked_lists
 
 This project is to understand how double linked lists work
 
