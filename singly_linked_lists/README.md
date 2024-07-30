@@ -306,19 +306,19 @@ Output 4:
 ==3598== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
 ==3598== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
 ==3598== Command: ./e
-==3598== 
+==3598==
 [3] Bob
 [1] &
 [3] Kris
 [4] love
 [3] asm
-==3598== 
+==3598==
 ==3598== HEAP SUMMARY:
 ==3598==     in use at exit: 0 bytes in 0 blocks
 ==3598==   total heap usage: 11 allocs, 11 frees, 1,166 bytes allocated
-==3598== 
+==3598==
 ==3598== All heap blocks were freed -- no leaks are possible
-==3598== 
+==3598==
 ==3598== For counts of detected and suppressed errors, rerun with: -v
 ==3598== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 ```
