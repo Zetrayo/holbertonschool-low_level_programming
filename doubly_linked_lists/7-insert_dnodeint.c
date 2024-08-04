@@ -26,7 +26,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int index, int 
 		new_node->prev = NULL;
 		return (new_node);
 	}
-	while (i != index)
+	while (i - 1 != index)
 	{
 		thead = thead->next; 
 		i++;
