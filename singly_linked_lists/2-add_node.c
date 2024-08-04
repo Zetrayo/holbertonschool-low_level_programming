@@ -5,7 +5,7 @@
 /**
  * add_node - add a new node at the beginning of `list_t` list
  * @head: double pointer to head
- * @str: string to be saved in new node, must be duplicated
+ * @data: string to be saved in new node, must be duplicated
  * Return: Address of new element or NULL if failed
  */
 list_t *add_node(list_t **head, const char *data)
